@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Footer from "../Footer";
 import cockpit from "../../assets/cockpit.png";
 import admin from "../../assets/admin.png";
 import tasklist from "../../assets/tasklist.png";
@@ -15,7 +14,7 @@ export default class HomepageIndexComponent extends Component {
         <header class="homepageheader">
           <ul id="headerleft">
             <li>
-              <img src={cockpiticon} />
+              <img src={cockpiticon}  alt="" />
             </li>
             <li class="alignselfcenter">
               <h3 class="margin0">Camunda Welcome</h3>
@@ -25,7 +24,7 @@ export default class HomepageIndexComponent extends Component {
             <li>
               <div class="dropdown">
                 <span>
-                  <img src={profileicon} /> teja ps
+                  <img src={profileicon}  alt="" /> teja ps
                 </span>
                 <div class="dropdown-content">
                   <p>
@@ -44,19 +43,19 @@ export default class HomepageIndexComponent extends Component {
               </div>
               <div class="homepageapplicationcontent">
                 <div class="cockpitlink">
-                  <img src={cockpit} alt="this is car image" />
+                  <img src={cockpit} alt="" />
                   <h3 class="textaligncenter">
                     <Link to="/cockpit">Cockpit</Link>
                   </h3>
                 </div>
                 <div class="tasklistlink">
-                  <img src={tasklist} alt="this is car image" />
+                  <img src={tasklist} alt="" />
                   <h3 class="textaligncenter">
                     <Link to="/tasklist">Tasklist</Link>
                   </h3>
                 </div>
                 <div class="adminlink">
-                  <img src={admin} alt="this is car image" />
+                  <img src={admin} alt="" />
                   <h3 class="textaligncenter">
                     <Link to="/admin">Admin</Link>
                   </h3>
@@ -83,7 +82,7 @@ export default class HomepageIndexComponent extends Component {
               <h5>U U</h5>
               <p>u@localhost</p>
               <p>
-                <a>Edit profile</a> <a>Change password</a>
+                <span>Edit profile</span> <span>Change password</span>
               </p>
             </div>
             <div class="homepagelinksectioncontent2">

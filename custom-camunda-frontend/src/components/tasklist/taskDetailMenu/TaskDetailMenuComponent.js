@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import TaskDetailMenuContentComponent from "./TaskDetailMenuContentComponent";
 
 export default class TaskDetailMenuComponent extends Component {
   constructor(props) {

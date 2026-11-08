@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Footer from "../Footer";
 import cockpiticon from "../../assets/cockpiticon.png";
 import profileicon from "../../assets/profileicon.svg";
 import attachmenticon from "../../assets/attachmenticon.svg";
@@ -14,7 +13,7 @@ export default class AdminIndexComponent extends Component {
         <header class="homepageheader">
           <ul id="headerleft">
             <li>
-              <img src={cockpiticon} />
+              <img src={cockpiticon}  alt="" />
             </li>
             <li class="alignselfcenter">
               <h3 class="margin0">Camunda Cockpit</h3>
@@ -23,17 +22,17 @@ export default class AdminIndexComponent extends Component {
           <ul id="headerright">
             <li>Keyboard shortcuts</li>
             <li>
-              <img src={attachmenticon} />
+              <img src={attachmenticon}  alt="" />
               Create task
             </li>
             <li>
-              <img src={startprocessicon} />
+              <img src={startprocessicon}  alt="" />
               Start process
             </li>
             <li>
               <div class="dropdown">
                 <span>
-                  <img src={profileicon} /> teja ps
+                  <img src={profileicon}  alt="" /> teja ps
                 </span>
                 <div class="dropdown-content">
                   <p>
@@ -49,7 +48,7 @@ export default class AdminIndexComponent extends Component {
               <div class="dropdown">
                 <span>
                   <Link to="/">
-                    <img src={houseicon} />
+                    <img src={houseicon}  alt="" />
                   </Link>
                 </span>
                 <div class="dropdown-content">

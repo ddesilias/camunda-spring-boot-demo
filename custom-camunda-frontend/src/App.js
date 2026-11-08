@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import "./index.css";
 
-import { BrowserRouter, Routes, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import TaskListIndexComponent from "./components/tasklist/TaskListIndexComponent";
 import AdminIndexComponent from "./components/admin/AdminIndexComponent";
 import CockPitIndexComponent from "./components/cockpit/CockPitIndexComponent";

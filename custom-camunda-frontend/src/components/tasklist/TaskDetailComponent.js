@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import TaskDetailMenuComponent from "./taskDetailMenu/TaskDetailMenuComponent";
-import DiagramMenuContentComponent from "./taskDetailMenu/DiagramMenuContentComponent";
 import TaskDetailMenuContentComponent from "./taskDetailMenu/TaskDetailMenuContentComponent";
 
 export default class TaskDetailComponent extends Component {
